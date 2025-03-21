@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Swanky+and+Moo+Moo&display=swap');
+* {
+    font-family: "Swanky and Moo Moo", cursive;
+    font-weight: 700;
+    text-align: center;
+}
+body {
+    background-color: #ADD8E6;
+}
+h1 {
+    font-weight: bolder;
+    text-align: center;
+}
+button {
+    font-size: larger;
+    display: block;
+    margin: 3rem auto;
+    background-color: #FED41D;
+    color: black;
+    border: 3px solid #0066B2;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #FED41D;
+    color: black;
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px #FED41D;
+}
+.card {
+    background-color: #FEE12B;
+    color: #333;
+    border: 3px solid #0066B2;
+    text-transform: uppercase;
+    border-radius: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px #FED41D;
+}
+.card img {
+    max-height: 120px;
+    width: auto;
+    object-fit: contain;
+}
+.card-body {
+    padding: 1rem;
+    flex-grow: 1;
+    overflow: hidden;
+}
+.card-title {
+    margin: auto;
+    font-weight: 900;
+    font-size: 20px;
+}
+.card-text {
+    font-size: 16px; 
+    line-height: 1.2;
+    padding: 0px 20px;
+}
+.row div {
+    display: flex;
+    justify-content: space-around;
+}
